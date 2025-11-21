@@ -1,0 +1,42 @@
+---
+title: Activitat 07
+---
+
+# Activitat 07 - Desplegaments de repositori Github Ivan Calatayud
+
+## Introducció
+<p>
+En aquesta activitat aprendrem a desplegar un projecte des de GitHub a diferents plataformes com <strong><em>Netlify</em></strong>, <strong><em>Vercel</em></strong> i, és clar, mantenir el codi a <strong><em>GitHub</em></strong>.
+</p>
+
+## Enllaços als desplegaments (HTML)
+<ul>
+  <li><a href="https://github.com/IvanCalatayud/intermodular06" target="_blank">Repositori GitHub</a></li>
+  <li><a href="https://vercel.com/IvanCalatayud/intermodular06" target="_blank">Desplegament Vercel</a></li>
+  <li><a href="https://IvanCalatayud.netlify.app" target="_blank">Desplegament Netlify</a></li>
+</ul>
+
+## Logos de les plataformes (HTML)
+<table>
+  <tr>
+    <th>GitHub</th>
+    <th>Vercel</th>
+    <th>Netlify</th>
+  </tr>
+  <tr>
+    <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcDW64501jWBF70Rhut52ZF0bHcs5S08vAuA&s" width="50"/></td>
+    <td><img src="data:image/png;base64,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" width="50"/></td>
+    <td><img src="data:image/png;base64,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</td>
+  </tr>
+</table>
+
+## Enllaços i logos (Markdown)
+S’ha utilitzat un repositori de **_Github_** per desplegar en tres plataformes diferents:
+
+1. [Github](https://github.com/IvanCalatayud/intermodular06)
+2. [Vercel](https://vercel.com/IvanCalatayud/intermodular06)
+3. [Netlify](https://IvanCalatayud.netlify.app)
+
+| Github | Vercel | Netlify |
+|--------|--------|---------|
+| ![Github Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcDW64501jWBF70Rhut52ZF0bHcs5S08vAuA&s) | ![Vercel Logo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARkAAACzCAMAAACKPpgZAAAAilBMVEX///8AAAAPDw8/Pz+7u7tWVlZjY2Pr6+vT09MFBQX39/cnJyfz8/P6+vr29vbw8PDi4uK0tLTl5eVbW1tQUFDd3d2Hh4eUlJR1dXXOzs57e3uOjo5ERETX19cjIyOoqKhra2vCwsKampqioqIyMjIXFxdJSUl4eHgWFhY4ODgdHR2mpqZnZ2e5uLmN4h99AAAGq0lEQVR4nO2aa3viLBCGi9VaD1HjqY31EK1rq1v//997DWHIkAC6u2Ttvtdzf2rDQMITmBkmPjwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALfTfbr3E3xX3kRy70f4noyEOHbv/RDfkichxLvP
