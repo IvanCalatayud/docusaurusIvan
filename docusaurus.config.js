@@ -71,12 +71,12 @@ const config = {
             label: 'Inici',
           },
           {
-            to: 'benvinguda-Ivan Calatayud',
+            to: 'benvinguda-Ivan',
             label: 'Benvinguda',
             position: 'left',
           },
           {
-            to: 'desplegaments- Ivan Calatayud',
+            to: 'desplegamentsIvan',
             label: 'Desplegaments',
             position: 'left',
           },
