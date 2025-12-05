@@ -52,7 +52,8 @@ const config = {
     ],
   ],
 
-  themeConfig: ({
+  themeConfig:
+    ({
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
@@ -89,13 +90,13 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [ 
+        links: [
           {
             title: 'Docs',
             items: [
               {
                 label: 'Tutorial',
-                to: ' href: https://docusaurus.io/',
+                href: 'https://docusaurus.io/',
               },
             ],
           },
